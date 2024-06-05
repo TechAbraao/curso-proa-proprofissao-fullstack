@@ -1,0 +1,15 @@
+.texto h1 {
+    text-align: center;
+}
+
+.box-galeria {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 40px;
+    height: 80vh;
+}
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

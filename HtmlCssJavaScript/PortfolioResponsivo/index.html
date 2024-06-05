@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="author" content="Abraão Vitor Silva Santos">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Abraão Santos - Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo"> < Abraão Santos > </div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">Sobre</a></li>
+          <li><a href="#experience">Experiências</a></li>
+          <li><a href="#projects">Projetos</a></li>
+          <li><a href="#contact">Contato</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Abraão</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">Sobre</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experiências</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">PProjetos</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contato</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="assets/foto-abraao.png" alt="Foto do Abraão Santos" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Prazer, sou o</p>
+        <h1 class="title">Abraão V. S. Santos</h1>
+        <p class="section__text__p2">Desenvolvedor Full-Stack</p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('')"
+          >
+            Currículo
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+            Informações gerais
+          </button>
+        </div>
+        <div id="socials-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="Linkedin"
+            class="icon"
+            onclick="location.href='https://www.linkedin.com/in/abraaosvs/'"
+          />
+          <img
+            src="./assets/github.png"
+            alt="Github"
+            class="icon"
+            onclick="location.href='https://github.com/TechAbraao'"
+          />
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <h1 class="title">Mais sobre</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img
+            src="./assets/foto-abraao2.png"
+            alt="Profile picture"
+            class="about-pic"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="./assets/experience.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <h3>Experiência</h3>
+              <p>3+ meses <br />HTML, CSS e JavaScript</p>
+            </div>
+            <div class="details-container">
+              <img
+                src="./assets/education.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Educação</h3>
+              <p>Técnico em Comércio - ETEC II<br />Técnico em Programação Web e Java - Senac Lapa Tito</p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+              Minha paixão pela tecnologia transcende a simples admiração; ela pulsa no ritmo acelerado da inovação digital. Cada avanço, cada descoberta, alimenta minha alma curiosa e impulsiona minha sede de conhecimento. Vivo para decifrar o código que molda nosso futuro, mergulhando fundo nos mistérios da programação, inteligência artificial e além. A tecnologia não é apenas uma parte da minha vida; ela é o batimento cardíaco da minha existência, a chama que ilumina meu caminho em direção a um amanhã transformador.
+            </p>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#experience'"
+      />
+    </section>
+    <section id="experience">
+      <p class="section__text__p1">Saiba mais</p>
+      <h1 class="title">Sobre minhas hard-skills e soft-skills</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Hard-Skills</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>HTML</h3>
+                  <p>Intermediário</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>CSS</h3>
+                  <p>Intermediário</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Python</h3>
+                  <p>Intermediário</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>JavaScript</h3>
+                  <p>Intermediário</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Java</h3>
+                  <p>Fundamentos</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>FIGMA UI/UX</h3>
+                  <p>Intermediário</p>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">Soft-Skills</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Comunicação</h3>
+                  <p>Excelente</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Trabalho em Equipe</h3>
+                  <p>Excelente</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Adaptação</h3>
+                  <p>Excelente</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Criticismo</h3>
+                  <p>Excelente</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#projects'"
+      />
+    </section>
+    <section id="projects">
+      <h1 class="title">Projetos</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/viloes-batman.png"
+                alt=""
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Vilões do Batman</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/TechAbraao/website-viloes-batman'"
+              >
+                Github
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/tela-login.png"
+                alt=""
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Tela de login estática</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/TechAbraao/website-login-landingpage'"
+              >
+                Github
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/responsito-website.png"
+                alt=""
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Website responsivo</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/TechAbraao/website-responsivo'"
+              >
+                Github
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#contact'"
+      />
+    </section>
+    <section id="contact">
+      <p class="section__text__p1">Saiba que meus</p>
+      <h1 class="title">Contatos</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./assets/email.png"
+            alt=""
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="">abraaosantos.contato@hotmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://www.linkedin.com/in/abraaosvs/">LinkedIn</a></p>
+        </div>
+      </div>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="keywords" conten="">
+    <link name="author" content="Abraão Vitor Silva Santos">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="img/icone-ecoworld.png">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <script src="js/jquery-3.7.1.js"></script>
+    <title>EcoWorld - Acesso ao site</title>
+</head>
+
+<body>
+    <header class="cabecalho">
+        <a href="#">
+            <h1 class="logo">EcoWorld - Juntos por um novo futuro!</h1>
+        </a>
+        <button class="btn-menu"><i class="fa-solid fa-bars"></i></button>
+        <nav class="menu">
+            <a class="btn-close"><i class="fa-solid fa-xmark"></i></a>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="#">Quem somos</a></li>
+                <li><a href="#">Serviços</a></li>
+                <li><a href="#">Notícias</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="banner">
+        <div class="title">
+            <h2>SEJA SUSTENTÁVEL!</h2>
+            <h3>Conectar, proteger, inspirar: por um futuro sustentável.</h3>
+        </div>
+        <div class="buttons">
+            <button class="btn btn-cadastrar"> Cadastrar<i class="fa-solid fa-arrow-right"></i></button>
+            <button class="btn btn-sobre"> Sobre<i class="fa-solid fa-question"></i></button>
+        </div>
+    </div>
+    <main class="servicos">
+        <article class="servico">
+            <a href="#"><img src="img/servicos.jpg" alt="servicos"></a>
+            <div class="inner">
+                <a href="#">Título 1</a>
+                <h4>Título 2</h4>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima ut earum eligendi adipisci esse
+                    impedit molestiae recusandae suscipit cumque perferendis ratione dolor voluptate non magni facere,
+                    exercitationem optio error autem?</p>
+            </div>
+        </article>
+        <article class="servico">
+            <a href="#"><img src="img/servicos.jpg" alt="servicos"></a>
+            <div class="inner">
+                <a href="#">Título 1</a>
+                <h4>Título 2</h4>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima ut earum eligendi adipisci esse
+                    impedit molestiae recusandae suscipit cumque perferendis ratione dolor voluptate non magni facere,
+                    exercitationem optio error autem?</p>
+            </div>
+        </article>
+        <article class="servico">
+            <a href="#"><img src="img/servicos.jpg" alt="servicos"></a>
+            <div class="inner">
+                <a href="#">Título 1</a>
+                <h4>Título 2</h4>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima ut earum eligendi adipisci esse
+                    impedit molestiae recusandae suscipit cumque perferendis ratione dolor voluptate non magni facere,
+                    exercitationem optio error autem?</p>
+            </div>
+        </article>
+        
+    </main>
+    <!-- NEWSLETTER-->
+    <section class="newsletter">
+        <h2>Inscreva-se agora!</h2>
+        <h3>Receba novidades, dicas e muito mais</h3>
+        <form>
+            <input type="email" name="email" placeholder="Digite seu e-mail">
+            <button>Cadastrar</button>
+        </form>
+    </section>
+    <!-- NEWSLETTER-->
+    <!-- FONTAWESOME-->
+    <script src="https://kit.fontawesome.com/20215a83ec.js" crossorigin="anonymous"></script>
+    <!-- FONTAWESOME-->
+    <!-- RODAPÉ-->
+    <footer class="rodape">
+        <div class="social-icons">
+           <a href="#"><i class="fa-brands fa-facebook"></i></a> 
+           <a href="#"><i class="fa-brands fa-twitter"></i></a> 
+           <a href="#"><i class="fa-brands fa-instagram"></i></a> 
+           <a href="#"><i class="fa-brands fa-google"></i></a> 
+           <a href="#"><i class="fa-regular fa-envelope"></i></a> 
+        </div>
+        <p class="copyright">Copyrigth EcoWorld 2024. Todos os direitos reservados</p>
+    </footer>
+    <!-- RODAPÉ-->
+    <!-- JQUERY-->
+    <script>
+        $(".btn-menu").click(function () {
+            $(".menu").show();
+        });
+        $(".btn-close").click(function () {
+            $(".menu").hide();
+        });
+    </script>
+    <!-- JQUERY-->
+</body>
+
+</html>
