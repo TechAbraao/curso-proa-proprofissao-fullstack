@@ -13,7 +13,7 @@
 <div>
         <h2>TECNOLOGIAS E FERRAMENTAS</h2>
 </div>
-
+![JavaScript](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg)
 
 
 
