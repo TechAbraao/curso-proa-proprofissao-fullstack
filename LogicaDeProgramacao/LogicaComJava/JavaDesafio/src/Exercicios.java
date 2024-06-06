@@ -264,4 +264,92 @@ public class Exercicios {
 
         Scanner.close();
     }
+
+    /* (12) */
+    public static void MaiorQueCem() {
+        Scanner Scanner = new Scanner(System.in);
+        System.out.print("Digite um número qualquer: ");
+        int numero = Scanner.nextInt();
+
+        if (numero > 100) {
+            System.out.println("O número é maior que 100.");
+        } else {
+            System.out.println("O dobro do número é: " + (numero * 2));
+        }
+
+        Scanner.close();
+    }
+
+    /* (13) */
+    public static void AplicaDesconto() {
+            Scanner Scanner = new Scanner(System.in);
+
+            System.out.print("Digite o valor da compra: ");
+            double valorCompra = Scanner.nextDouble();
+
+            System.out.print("Digite a categoria do cliente (1 para comum, 2 para associado, 3 para VIP): ");
+            int categoria = Scanner.nextInt();
+
+            double desconto = 0.0;
+
+            if (categoria == 2) {
+                desconto = 0.10;
+            } else if (categoria == 3) {
+                desconto = 0.20;
+            }
+
+            double valorFinal = valorCompra - (valorCompra * desconto);
+
+            System.out.println("O valor final da compra é: R$ " + valorFinal);
+
+            Scanner.close();
+    }
+
+    /* (14) */
+    public static void QuadradoRaiz() {
+        Scanner Scanner = new Scanner(System.in);
+
+        System.out.print("Digite um número: ");
+        double numero = Scanner.nextDouble();
+
+        if (numero >= 0) {
+            double raizQuadrada = Math.sqrt(numero);
+            System.out.println("A raiz quadrada do número é: " + raizQuadrada);
+        } else {
+            double aoQuadrado = Math.pow(numero, 2);
+            System.out.println("O número ao quadrado é: " + aoQuadrado);
+        }
+
+        Scanner.close();
+    }
+
+    /* (15) */
+    public static void Imc() {
+        Scanner Scanner = new Scanner(System.in);
+
+        System.out.print("Digite o peso (kg): ");
+        double peso = Scanner.nextDouble();
+
+        System.out.print("Digite a altura (m): ");
+        double altura = Scanner.nextDouble();
+
+        double imc = peso / (altura * altura);
+        System.out.println("Seu IMC é: " + imc);
+
+        if (imc < 18.5) {
+            System.out.println("Categoria: Abaixo do peso");
+        } else if (imc >= 18.5 && imc < 24.9) {
+            System.out.println("Categoria: Peso normal");
+        } else if (imc >= 25 && imc < 29.9) {
+            System.out.println("Categoria: Sobrepeso");
+        } else if (imc >= 30 && imc < 34.9) {
+            System.out.println("Categoria: Obesidade grau I");
+        } else if (imc >= 35 && imc < 39.9) {
+            System.out.println("Categoria: Obesidade grau II");
+        } else {
+            System.out.println("Categoria: Obesidade grau III");
+        }
+
+        Scanner.close();
+    }
 }
