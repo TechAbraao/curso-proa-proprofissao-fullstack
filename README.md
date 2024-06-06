@@ -13,7 +13,26 @@
 <div>
         <h2>TECNOLOGIAS E FERRAMENTAS</h2>
 </div>
-![JavaScript](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg)
+
+![Static Badge](https://img.shields.io/badge/JavaScript_-grey?style=for-the-badge&logo=JavaScript&logoSize=10)
+![Static Badge](https://img.shields.io/badge/HTML_-grey?style=for-the-badge&logo=HTML5&logoSize=10)
+![Static Badge](https://img.shields.io/badge/CSS_-grey?style=for-the-badge&logo=CSS3&logoSize=10)
+![Static Badge](https://img.shields.io/badge/React_-grey?style=for-the-badge&logo=React&logoSize=10)
+![Static Badge](https://img.shields.io/badge/Bootstrap_-grey?style=for-the-badge&logo=Bootstrap&logoSize=10)
+![Static Badge](https://img.shields.io/badge/Git_-grey?style=for-the-badge&logo=Git&logoSize=10)
+![Static Badge](https://img.shields.io/badge/Github_-grey?style=for-the-badge&logo=Github&logoSize=10)
+![Static Badge](https://img.shields.io/badge/Visual%20Studio%20Code_-grey?style=for-the-badge&logo=visual%20studio%20code&logoSize=10)
+![Static Badge](https://img.shields.io/badge/IntelliJ%20IDEA_-grey?style=for-the-badge&logo=IntelliJ%20IDEA&logoSize=10)
+![Static Badge](https://img.shields.io/badge/MySQL_-grey?style=for-the-badge&logo=MySQL&logoSize=10)
+
+
+
+
+
+
+
+
+
 
 
 
