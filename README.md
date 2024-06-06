@@ -24,7 +24,9 @@
 ![Static Badge](https://img.shields.io/badge/Visual%20Studio%20Code_-grey?style=for-the-badge&logo=visual%20studio%20code&logoSize=10)
 ![Static Badge](https://img.shields.io/badge/IntelliJ%20IDEA_-grey?style=for-the-badge&logo=IntelliJ%20IDEA&logoSize=10)
 ![Static Badge](https://img.shields.io/badge/MySQL_-grey?style=for-the-badge&logo=MySQL&logoSize=10)
-
+![Static Badge](https://img.shields.io/badge/java_-grey?style=for-the-badge&logo=Java&logoColor=white&logoSize=10)
+![Static Badge](https://img.shields.io/badge/Figma_-grey?style=for-the-badge&logo=Figma&logoSize=10)
+![Static Badge](https://img.shields.io/badge/Trello_-grey?style=for-the-badge&logo=Trello&logoSize=10)
 
 
 
