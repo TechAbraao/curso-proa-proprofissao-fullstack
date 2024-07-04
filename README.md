@@ -11,7 +11,7 @@
 </ul>
 </div>
 <div>
-        <h2>TECNOLOGIAS E FERRAMENTAS</h2>
+        <h2>Tecnologias e IDEs</h2>
 </div>
 
 ![Static Badge](https://img.shields.io/badge/JavaScript_-grey?style=for-the-badge&logo=JavaScript&logoSize=10)
